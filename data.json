@@ -1,0 +1,365 @@
+{
+  "service_categories": [
+    {
+      "category_name": "Комплексные услуги автомойки",
+      "service_count": 10,
+      "services": [
+        {
+          "service_name": "Мойка днища автомобиля",
+          "duration": "30 минут",
+          "price_from": "1500.00 ₽"
+        },
+        {
+          "service_name": "Мойка «Люкс»",
+          "duration": "1 час",
+          "price_from": "2800.00 ₽"
+        },
+        {
+          "service_name": "Комплекс 3-х фазный",
+          "duration": "1 час 20 мин",
+          "price_from": "2500.00 ₽"
+        },
+        {
+          "service_name": "Стандарт 3-х фазный",
+          "duration": "1 час",
+          "price_from": "2300.00 ₽"
+        },
+        {
+          "service_name": "Комплекс 2-х фазный",
+          "duration": "1 час 10 мин",
+          "price_from": "1700.00 ₽"
+        },
+        {
+          "service_name": "Стандарт 2-х фазный",
+          "duration": "15 минут",
+          "price_from": "1200.00 ₽"
+        },
+        {
+          "service_name": "Мойка «Комплекс»",
+          "duration": "1 час",
+          "price_from": "1500.00 ₽"
+        },
+        {
+          "service_name": "Мойка «Стандарт»",
+          "duration": "40 минут",
+          "price_from": "800.00 ₽"
+        },
+        {
+          "service_name": "Мойка «Эконом»",
+          "duration": "20 минут",
+          "price_from": "550.00 ₽"
+        },
+        {
+          "service_name": "Технологическая мойка",
+          "duration": "20 минут",
+          "price_from": "500.00 ₽"
+        }
+      ]
+    },
+    {
+      "category_name": "Предпродажная подготовка",
+      "service_count": 1,
+      "services": [
+        {
+          "service_name": "Предпродажная подготовка",
+          "duration": "23 часа",
+          "price_from": "20000.00 ₽"
+        }
+      ]
+    },
+    {
+      "category_name": "Дополнительные услуги автомойки",
+      "service_count": 16,
+      "services": [
+        {
+          "service_name": "Продувка сжатым воздухом",
+          "duration": "5 минут",
+          "price_from": "200.00 ₽"
+        },
+        {
+          "service_name": "Очистка хрома 1 эл-т",
+          "duration": "1 час",
+          "price_from": "1000.00 ₽"
+        },
+        {
+          "service_name": "Очистка от металлических вкраплений 1 эл-т",
+          "duration": "1 час",
+          "price_from": "1500.00 ₽"
+        },
+        {
+          "service_name": "Кондиционер кожи",
+          "duration": "15 минут",
+          "price_from": "900.00 ₽"
+        },
+        {
+          "service_name": "Обработка стекла антидождем",
+          "duration": "1 час",
+          "price_from": "2000.00 ₽"
+        },
+        {
+          "service_name": "Обработка силиконом",
+          "duration": "5 минут",
+          "price_from": "300.00 ₽"
+        },
+        {
+          "service_name": "Обработка пластиковых частей полиролью",
+          "duration": "10 минут",
+          "price_from": "700.00 ₽"
+        },
+        {
+          "service_name": "Обработка панели полиролью",
+          "duration": "10 минут",
+          "price_from": "350.00 ₽"
+        },
+        {
+          "service_name": "Обработка кузова воском",
+          "duration": "5 минут",
+          "price_from": "900.00 ₽"
+        },
+        {
+          "service_name": "Мойка радиатора",
+          "duration": "20 минут",
+          "price_from": "1000.00 ₽"
+        },
+        {
+          "service_name": "Мойка литых дисков 1 шт.",
+          "duration": "15 минут",
+          "price_from": "200.00 ₽"
+        },
+        {
+          "service_name": "Мойка колесных арок 4 шт.",
+          "duration": "20 минут",
+          "price_from": "1000.00 ₽"
+        },
+        {
+          "service_name": "Мойка ковриков 4 шт.",
+          "duration": "5 минут",
+          "price_from": "200.00 ₽"
+        },
+        {
+          "service_name": "Мойка двигателя",
+          "duration": "40 минут",
+          "price_from": "1500.00 ₽"
+        },
+        {
+          "service_name": "Мойка двигателя с консервацией",
+          "duration": "1 час",
+          "price_from": "2500.00 ₽"
+        },
+        {
+          "service_name": "Детейлинг-мойка колесных дисков",
+          "duration": "30 минут",
+          "price_from": "2000.00 ₽"
+        }
+      ]
+    },
+    {
+      "category_name": "Полировка и покрытие ЛПК",
+      "service_count": 7,
+      "services": [
+        {
+          "service_name": "Покрытие твёрдым воском",
+          "duration": "3 часа",
+          "price_from": "7000.00 ₽"
+        },
+        {
+          "service_name": "Кварцевое покрытие",
+          "duration": "10 минут",
+          "price_from": "700.00 ₽"
+        },
+        {
+          "service_name": "Керамическое покрытие",
+          "duration": "3 часа",
+          "price_from": "15000.00 ₽"
+        },
+        {
+          "service_name": "Полировка фар",
+          "duration": "30 минут",
+          "price_from": "1000.00 ₽"
+        },
+        {
+          "service_name": "Полировка кузова",
+          "duration": "10 часов",
+          "price_from": "15000.00 ₽"
+        },
+        {
+          "service_name": "Антидождь Glasso (лобовое стекло)",
+          "duration": "1 час",
+          "price_from": "1500.00 ₽"
+        },
+        {
+          "service_name": "Антидождь Glasso (круг)",
+          "duration": "1 час 20 мин",
+          "price_from": "3500.00 ₽"
+        }
+      ]
+    },
+    {
+      "category_name": "Химчистка салона автомобиля",
+      "service_count": 9,
+      "services": [
+        {
+          "service_name": "Химчистка панели приборов",
+          "duration": "30 минут",
+          "price_from": "3500.00 ₽"
+        },
+        {
+          "service_name": "Химчистка багажника",
+          "duration": "2 часа",
+          "price_from": "3000.00 ₽"
+        },
+        {
+          "service_name": "Химчистка потолка",
+          "duration": "7 часов",
+          "price_from": "3000.00 ₽"
+        },
+        {
+          "service_name": "Химчистка коврового покрытия",
+          "duration": "40 минут",
+          "price_from": "3000.00 ₽"
+        },
+        {
+          "service_name": "Химчистка 1 двери",
+          "duration": "30 минут",
+          "price_from": "1000.00 ₽"
+        },
+        {
+          "service_name": "Химчистка всех сидений",
+          "duration": "3 часа",
+          "price_from": "5000.00 ₽"
+        },
+        {
+          "service_name": "Химчистка заднего сидения (сплошное)",
+          "duration": "2 часа",
+          "price_from": "3000.00 ₽"
+        },
+        {
+          "service_name": "Химчистка 1 сидения",
+          "duration": "1 час 15 мин",
+          "price_from": "1500.00 ₽"
+        },
+        {
+          "service_name": "Полная химчистка салона + мойка кузова бесплатно",
+          "duration": "7 часов",
+          "price_from": "10000.00 ₽"
+        }
+      ]
+    },
+    {
+      "category_name": "Доп. услуги (из блока химчистки)",
+      "service_count": 22,
+      "services": [
+        {
+          "service_name": "Чистка стёкол (круг)",
+          "duration": "15 минут",
+          "price_from": "200.00 ₽"
+        },
+        {
+          "service_name": "Чистка от насекомых 1 эл-т",
+          "duration": "50 минут",
+          "price_from": "2000.00 ₽"
+        },
+        {
+          "service_name": "Чистка битумных пятен весь кузов",
+          "duration": "2 часа",
+          "price_from": "2500.00 ₽"
+        },
+        {
+          "service_name": "Чистка от битумных пятен 1 эл-т",
+          "duration": "1 час",
+          "price_from": "700.00 ₽"
+        },
+        {
+          "service_name": "Чернение резины (4 шт.)",
+          "duration": "10 минут",
+          "price_from": "400.00 ₽"
+        },
+        {
+          "service_name": "Нано-шампунь (2-я фаза)",
+          "duration": "15 минут",
+          "price_from": "800.00 ₽"
+        },
+        {
+          "service_name": "Удаление плёнки (1 стекло)",
+          "duration": "40 минут",
+          "price_from": "1000.00 ₽"
+        },
+        {
+          "service_name": "Уборка салона пылесосом",
+          "duration": "15 минут",
+          "price_from": "300.00 ₽"
+        },
+        {
+          "service_name": "Уборка салона влажная",
+          "duration": "15 минут",
+          "price_from": "300.00 ₽"
+        },
+        {
+          "service_name": "Уборка багажника пылесосом",
+          "duration": "15 минут",
+          "price_from": "200.00 ₽"
+        },
+        {
+          "service_name": "Смазка замков",
+          "duration": "5 минут",
+          "price_from": "200.00 ₽"
+        },
+        {
+          "service_name": "Полимерное покрытие",
+          "duration": "30 минут",
+          "price_from": "1000.00 ₽"
+        },
+        {
+          "service_name": "Продувка сжатым воздухом",
+          "duration": "10 минут",
+          "price_from": "200.00 ₽"
+        },
+        {
+          "service_name": "Очистка хрома 1 эл-т",
+          "duration": "20 минут",
+          "price_from": "1000.00 ₽"
+        },
+        {
+          "service_name": "Очистка от металлических вкраплений 1 эл-т",
+          "duration": "20 минут",
+          "price_from": "700.00 ₽"
+        },
+        {
+          "service_name": "Кондиционер кожи",
+          "duration": "15 минут",
+          "price_from": "800.00 ₽"
+        },
+        {
+          "service_name": "Обработка силиконом",
+          "duration": "10 минут",
+          "price_from": "300.00 ₽"
+        },
+        {
+          "service_name": "Обработка стекла от запотевания (круг)",
+          "duration": "10 минут",
+          "price_from": "300.00 ₽"
+        },
+        {
+          "service_name": "Обработка пластиковых частей полиролью",
+          "duration": "10 минут",
+          "price_from": "400.00 ₽"
+        },
+        {
+          "service_name": "Обработка панели полиролью",
+          "duration": "10 минут",
+          "price_from": "300.00 ₽"
+        },
+        {
+          "service_name": "Обработка лобового стекла от запотевания",
+          "duration": "5 минут",
+          "price_from": "200.00 ₽"
+        },
+        {
+          "service_name": "Обработка кузова воском",
+          "duration": "10 минут",
+          "price_from": "500.00 ₽"
+        }
+      ]
+    }
+  ]
+}

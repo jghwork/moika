@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Профессиональная автомойка 24 часа. Качественный уход за вашим автомобилем.">
+    <meta name="keywords" content="автомойка, химчистка, полировка, 24 часа">
+    <title>Автомойка 24 Часа | Профессиональный уход</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo"><span class="logo-orange">М</span><span class="logo-white">ил</span><span class="logo-orange">А</span><span class="logo-white"> 24/7</span></div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Главная</a></li>
+                    <li><a href="#services" class="nav-link">Услуги</a></li>
+                    <li><a href="#gallery" class="nav-link">Галерея</a></li>
+                    <li><a href="#about" class="nav-link">О нас</a></li>
+                    <li><a href="#contacts" class="nav-link">Контакты</a></li>
+                </ul>
+                <button class="burger-menu" aria-label="Меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">АВТОМОЙКА 24 ЧАСА</h1>
+                <p class="hero-subtitle">Профессиональный уход за вашим автомобилем</p>
+                <p class="hero-address">ул. Тимирязева, 27А</p>
+                <div class="hero-buttons">
+                    <a href="#contacts" class="btn btn-primary">Записаться</a>
+                    <a href="#services" class="btn btn-secondary">Посмотреть услуги</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">УСЛУГИ</h2>
+            <div class="services-search">
+                <input type="text" id="service-search" placeholder="Найти услугу...">
+            </div>
+            <div class="services-categories">
+                <!-- Categories will be dynamically generated -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">ГАЛЕРЕЯ</h2>
+            <div class="gallery-filters" id="gallery-filters">
+                <!-- Filter buttons will be dynamically generated -->
+            </div>
+            <div class="gallery-hint">
+                <p>Нажмите на любое изображение для просмотра в полном размере</p>
+            </div>
+            <div class="gallery-wrapper">
+                <div class="gallery-grid">
+                    <!-- Gallery items will be dynamically generated -->
+                </div>
+                <div class="gallery-navigation">
+                    <button class="gallery-prev" aria-label="Предыдущие изображения">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <button class="gallery-next" aria-label="Следующие изображения">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">О НАС</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="./assets/images/about.png" alt="О нашей автомойке">
+                </div>
+                <div class="about-text">
+                    <p>Мы — команда профессионалов с многолетним опытом в уходе за автомобилями. Наша автомойка работает круглосуточно, чтобы вы могли получить качественный сервис в любое удобное время.</p>
+                    <p>Мы используем только профессиональную химию и современное оборудование, гарантируя безупречный результат. Каждому автомобилю уделяем индивидуальное внимание и подход.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantages Section -->
+    <section class="advantages">
+        <div class="container">
+            <h2 class="section-title">ПРЕИМУЩЕСТВА</h2>
+            <div class="advantages-grid">
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <img src="assets/icons/clock.svg" alt="24/7">
+                    </div>
+                    <h3>Работаем 24/7</h3>
+                    <p>Круглосуточный сервис для вашего удобства</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <img src="assets/icons/chemistry.svg" alt="Химия">
+                    </div>
+                    <h3>Профессиональная химия</h3>
+                    <p>Используем только качественные средства</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <img src="assets/icons/master.svg" alt="Мастера">
+                    </div>
+                    <h3>Опытные мастера</h3>
+                    <p>Квалифицированные специалисты</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <img src="assets/icons/price.svg" alt="Цены">
+                    </div>
+                    <h3>Честные цены</h3>
+                    <p>Прозрачное ценообразование без скрытых платежей</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <img src="assets/icons/services.svg" alt="Услуги">
+                    </div>
+                    <h3>Большой список услуг</h3>
+                    <p>Полный спектр услуг по уходу за авто</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <img src="assets/icons/quality.svg" alt="Качество">
+                    </div>
+                    <h3>Высокое качество</h3>
+                    <p>Гарантия качества на все виды работ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts Section -->
+    <section id="contacts" class="contacts">
+        <div class="container">
+            <h2 class="section-title">КОНТАКТЫ</h2>
+            <div class="contacts-content">
+                <div class="contacts-info">
+                    <div class="contact-item">
+                        <h3>Адрес</h3>
+                        <p>ул. Тимирязева, 27А</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Телефон</h3>
+                        <p><a href="tel:+79200994442">+7-920-099-44-42</a></p>
+                        <p><a href="tel:+79307160132">+7-930-716-01-32</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Режим работы</h3>
+                        <p>24 часа</p>
+                    </div>
+                    <a href="tel:+79200994442" class="btn btn-primary btn-large">Позвонить</a>
+                </div>
+                <div class="contacts-map">
+                    <iframe src="https://yandex.ru/map-widget/v1/?z=15&ol=biz&oid=CPAzNMZF" width="100%" height="400" frameborder="0" allowfullscreen="true" style="position:relative;"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo"><span class="logo-orange">М</span><span class="logo-white">ил</span><span class="logo-orange">А</span><span class="logo-white"> 24/7</span></div>
+                <p class="footer-slogan">Профессиональный уход за вашим автомобилем</p>
+                <nav class="footer-nav">
+                    <a href="#home">Главная</a>
+                    <a href="#services">Услуги</a>
+                    <a href="#gallery">Галерея</a>
+                    <a href="#about">О нас</a>
+                    <a href="#contacts">Контакты</a>
+                </nav>
+                <p class="footer-copyright">© 2026 Автомойка 24 Часа. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <button class="lightbox-close" aria-label="Закрыть">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+        <button class="lightbox-prev" aria-label="Предыдущее">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+        <button class="lightbox-next" aria-label="Следующее">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+        <div class="lightbox-content">
+            <img src="" alt="" class="lightbox-image">
+            <div class="lightbox-counter">
+                <span class="current">1</span> / <span class="total">10</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>
